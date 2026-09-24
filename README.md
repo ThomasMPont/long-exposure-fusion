@@ -1,10 +1,5 @@
 # Long-Exposure Fusion
 
-## Unfinished
-
-This repository is unfinished and some documentation is missing.
-Please note that you may have trouble running the project on your own.
-
 ## Introduction
 
 **Long-Exposure Fusion** is a full Python pipeline that generates long-exposure style images from videos or burst photo sequences. Images are generated using our own variant of [Exposure Fusion](https://ieeexplore.ieee.org/document/4392748) that we call Hybrid Weight Map Fusion.
@@ -48,11 +43,16 @@ In this example, we've chosen different weight maps for the sky, the city, and t
 
 ![Long-Exposure Fusion of sunset scene](assets/hiddenCars.png)
 
+## Unfinished
+
+This repository is unfinished and some documentation is missing.
+Please note that you may encounter a few issues while running the project on your own.
+
 ## Installation
 
 ### Disclaimer
 
-This repository is brand new and you may encounter problems before you get everything running.
+This repository was not tested for production and you may run into problems before you get everything working.
 Don't hesitate to open a Github issue if you do.
 
 The steps below describe how to install this project on a Linux system with python 3.11.13 and cuda 12.9 and were tested using WSL.
